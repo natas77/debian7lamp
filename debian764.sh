@@ -1,7 +1,5 @@
-apt-get update;
+#!/bin/bash
+apt-get update
+apt-get upgrade
 
-echo 'update fin';
-
-apt-get upgrade;
-
-echo 'upgrade fin';
+aptget install apache2 php5 mysql-server samba git
